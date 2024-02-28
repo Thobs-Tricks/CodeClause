@@ -1,0 +1,39 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\javafx-17\\lib\\javafx.base.jar",
+        "c:\\javafx-17\\lib\\javafx.controls.jar",
+        "c:\\javafx-17\\lib\\javafx.fxml.jar",
+        "c:\\javafx-17\\lib\\javafx.graphics.jar",
+        "c:\\javafx-17\\lib\\javafx.media.jar",
+        "c:\\javafx-17\\lib\\javafx.swing.jar",
+        "c:\\javafx-17\\lib\\javafx.web.jar",
+        "c:\\javafx-17\\lib\\javafx-swt.jar"
+    ]
+}
+
+
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Example_479fdd7b"
+            "vmArgs": "--module-path \"C:\\javafx-17\\lib\" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics,javafx.media",
+        }
+    ]
+}
